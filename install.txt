@@ -1,0 +1,31 @@
+(venv) C:\Users\johnd\Dropbox\jdocs\biz\anagh-agm-adp\ADP\projects\hello>pip install Flask
+Collecting Flask
+  Downloading https://files.pythonhosted.org/packages/f2/28/2a03252dfb9ebf377f40fba6a7841b47083260bf8bd8e737b0c6952df83f/Flask-1.1.2-py2.py3-none-any.whl (94kB)
+     |████████████████████████████████| 102kB 3.2MB/s
+Collecting itsdangerous>=0.24 (from Flask)
+  Downloading https://files.pythonhosted.org/packages/76/ae/44b03b253d6fade317f32c24d100b3b35c2239807046a4c953c7b89fa49e/itsdangerous-1.1.0-py2.py3-none-any.whl
+Collecting Werkzeug>=0.15 (from Flask)
+  Downloading https://files.pythonhosted.org/packages/cc/94/5f7079a0e00bd6863ef8f1da638721e9da21e5bacee597595b318f71d62e/Werkzeug-1.0.1-py2.py3-none-any.whl (298kB)
+     |████████████████████████████████| 307kB 2.2MB/s
+Collecting click>=5.1 (from Flask)
+  Downloading https://files.pythonhosted.org/packages/d2/3d/fa76db83bf75c4f8d338c2fd15c8d33fdd7ad23a9b5e57eb6c5de26b430e/click-7.1.2-py2.py3-none-any.whl (82kB)
+     |████████████████████████████████| 92kB 2.9MB/s
+Collecting Jinja2>=2.10.1 (from Flask)
+  Downloading https://files.pythonhosted.org/packages/7e/c2/1eece8c95ddbc9b1aeb64f5783a9e07a286de42191b7204d67b7496ddf35/Jinja2-2.11.3-py2.py3-none-any.whl (125kB)
+     |████████████████████████████████| 133kB 3.3MB/s
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10.1->Flask)
+  Downloading https://files.pythonhosted.org/packages/4f/8b/da8a2ae5780d38271ac6e691756fc938cf4df8f225eb8aaced0204304932/MarkupSafe-1.1.1-cp38-cp38-win_amd64.whl
+Installing collected packages: itsdangerous, Werkzeug, click, MarkupSafe, Jinja2, Flask
+Successfully installed Flask-1.1.2 Jinja2-2.11.3 MarkupSafe-1.1.1 Werkzeug-1.0.1 click-7.1.2 itsdangerous-1.1.0
+WARNING: You are using pip version 19.2.3, however version 21.0.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(venv) C:\Users\johnd\Dropbox\jdocs\biz\anagh-agm-adp\ADP\projects\hello>py -m pip install --upgrade pip
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/fe/ef/60d7ba03b5c442309ef42e7d69959f73aacccd0d86008362a681c4698e83/pip-21.0.1-py3-none-any.whl (1.5MB)
+     |████████████████████████████████| 1.5MB 3.3MB/s
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-21.0.1
